@@ -1,0 +1,7 @@
+@media screen and (max-device-width: 749px){
+    #main{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}

@@ -3,16 +3,14 @@ body{
     margin: 0 auto;
     flex-direction: column;
     max-width: 1680px;
-    background-image: url(images/background2.jpg);
+    background-image: url(/images/background2.jpg);
     background-repeat: no-repeat;
     background-attachment : fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    background-size: 100% 100%;
     justify-content: center;
-    background-position: center;
-
 }
+
+/* HEADER           */
 
 header{
     margin: 0 auto;
@@ -46,18 +44,20 @@ header p {
     font-family: 'Kreon', serif;
     margin-left: 20px;
 }
+
+
+/*   BASE            */
+
 #base {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
     font-family: serif;
-    background-image:url(/images/mountain.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 100%;
     max-height: 900px;
 }
+
+
  
 .forward{
     margin-bottom: 20px;
@@ -96,6 +96,9 @@ header p {
     
 }
 
+
+/*       CONTENT                  */
+
 #content{
     display: flex;
     align-items: center;
@@ -117,7 +120,7 @@ header p {
 }
 
 ul{
-    list-style-image:url(images/check.png);
+    list-style-image:url(/images/check.png);
     font-family: 'Pattaya', sans-serif;
     font-size: 23px;
 
@@ -138,6 +141,8 @@ ul{
 }
 
 
+/*     FOOTER         */
+
 footer{
     margin: 0 auto;
     bottom: 0;
@@ -157,3 +162,12 @@ footer p{
     font-family: 'Great Vibes', cursive;
     font-family: 'Kreon', serif;
 }
+
+
+
+
+
+
+
+
+

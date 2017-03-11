@@ -1,0 +1,74 @@
+body{
+    background-image: url(/images/ground4.jpg);
+    background-repeat: repeat;
+}
+
+header{
+    margin: 0 auto;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #e6e2e2;
+    width: 100%;
+    align-items: center;
+
+    
+}
+header button{
+    padding: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 15px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Kreon', serif;
+    background-color: rgba(16, 75, 224, 0.5);
+    border: 0;
+    border-radius: 15px;
+}
+
+header p {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Kreon', serif;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+#main{
+    margin-top: 10px;
+    
+}
+
+.carousel-caption {
+    color: black;
+    
+}
+
+nav{
+    margin-top: 20px;
+    max-width: 250px;
+}
+
+footer{
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 25px;
+    background-color: rgba(194, 184, 184, 0.4);
+    width: 100%;
+    align-items: center;
+
+}
+
+footer p{
+    margin-right: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Kreon', serif;
+}

@@ -4,34 +4,79 @@
     <meta charset="UTF-8">
     <title>Profile(Demo v1.1)</title>
     <link rel="stylesheet" href="profilestyle.css">
+    <!--<link rel="stylesheet" href="reset.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Kreon" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <p>whatiwannahave</p>
-        <button>
-            Exit
-        </button>
+        <div class="logo">
+            <p>whatiwannahave</p>
+        </div>
+        <div class="name">
+            <p>Volodymyr Irodiuk</p>
+            <button>
+                Exit
+            </button>
+        </div>
     </header>
-<!--                         -->    
+<!--    Шкала прогресу                     -->    
     <div id="progress">
+        <div class="progress">
+            <div class="percents">
+                <p>Progress... 17%</p>
+            </div>
+        </div>
         
     </div>
-<!--                         -->    
-    <nav>
-        
-    </nav>
-<!--                         -->    
-    <div id="profile">
-        
+    <div class="container">
+    <!--    Навігація                     -->    
+        <nav>
+            <ul>
+                <li><a href="#">Профіль</a></li>
+                <li><a href="#">Проблеми і рішення</a></li>
+                <li><a href="#">Графік</a></li>
+                <li><a href="#">Нотатки</a></li>
+            </ul>
+        </nav>
+    <!--    Профіль: картинка, ціль і підцілі.                     -->    
+        <div id="main">
+            <h1>Моя ціль: власний автомобіль</h1>
+            <div class="picture">
+                <img src="images/BMW.jpg"></img>
+            </div>
+            <div class="checks">
+                <ul>
+                    <li>Потрапити на курси з веб-дизайну</li>
+                    <li>Закінчити курси з веб-дизайну</li>
+                    <li>Вивчити програмування на проф. рівні</li>
+                    <li>Почати заробляти на фрілансі</li>
+                    <li>Влаштуватись на роботу в компанію SoftServe</li>
+                    <li>Вивчити англійську</li>
+                </ul>
+            </div>
+        </div>
+    <!--     Час: календар і таймер оберненого відліку                    -->    
+        <div id="time">
+            <div class="calendar">
+                
+            </div>
+            <div class="time">
+                
+            </div>
+        </div>
     </div>
-<!--                         -->    
-    <div id="time">
-        
-    </div>    
 <!--                         -->    
     <footer>
         <p>whatiwannahave © 2017</p>
     </footer>    
-<!--                         -->    
+<!--                         -->
+<script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+@media screen and (max-device-width: 749px){
+    #base{
+        background-image: url(/images/mountain2.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+}
+
+@media screen and (min-device-width: 750px){
+    #base{
+        background-image: url(/images/mountain.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    
+}
