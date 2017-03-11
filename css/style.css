@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
     flex-direction: column;
     max-width: 1680px;
-    background-image: url(/images/background2.jpg);
+    background-image: url(../images/background2.jpg);
     background-repeat: no-repeat;
     background-attachment : fixed;
     background-size: 100% 100%;
@@ -120,7 +120,7 @@ header p {
 }
 
 ul{
-    list-style-image:url(/images/check.png);
+    list-style-image:url(../images/check.png);
     font-family: 'Pattaya', sans-serif;
     font-size: 23px;
 
